@@ -232,9 +232,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="301" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="701" />
   </component>
@@ -396,8 +395,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in KaijuAttack" />
-        <item itemvalue="JUnit.TownHallTest" />
         <item itemvalue="JUnit.TankTest" />
+        <item itemvalue="JUnit.TownHallTest" />
         <item itemvalue="JUnit.ParliamentTest" />
         <item itemvalue="JUnit.RagnorakTest" />
       </list>

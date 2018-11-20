@@ -8,8 +8,8 @@ public class Tank extends Vehicle implements IDamage, IAttack {
         super(type, healthValue, attackValue);
     }
 
-    public void attack(IDamage victim) {
-        victim.takeDamage(getAttackValue());
+    public void attack(IDamage attacked) {
+        attacked.takeDamage(getAttackValue());
     }
 
     public void takeDamage(int damage) {
