@@ -1,5 +1,5 @@
 package Behaviours;
 
 public interface IAttack {
-    void attack(IDamage victim);
+    void attack(IDamage attacked);
 }

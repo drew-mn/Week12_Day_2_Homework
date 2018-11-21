@@ -29,4 +29,15 @@ public class CombatDroneTest {
         combatDrone.attack(onibaba);
         assertEquals(180, onibaba.getHealthValue());
     }
+
+    @Test
+    public void canSetHealthValue(){
+        combatDrone.setHealthValue(100);
+        assertEquals(100, combatDrone.getHealthValue());
+    }
+
+    @Test
+    public void canGetHealthValue(){
+        assertEquals(200, combatDrone.getHealthValue());
+    }
 }

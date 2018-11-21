@@ -29,4 +29,15 @@ public class TankTest {
         assertEquals(100, onibaba.getHealthValue());
     }
 
+    @Test
+    public void canSetHealthValue(){
+        tank.setHealthValue(100);
+        assertEquals(100, tank.getHealthValue());
+    }
+
+    @Test
+    public void canGetHealthValue(){
+        assertEquals(200, tank.getHealthValue());
+    }
+
 }

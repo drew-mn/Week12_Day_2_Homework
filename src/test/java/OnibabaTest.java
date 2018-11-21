@@ -22,6 +22,28 @@ public class OnibabaTest {
     }
 
     @Test
+    public void canGetAttackValue(){
+        assertEquals(40, onibaba.getAttackValue());
+    }
+
+    @Test
+    public void canSetAttackValue(){
+        onibaba.setAttackValue(100);
+        assertEquals(100, onibaba.getAttackValue());
+    }
+
+    @Test
+    public void canSetHealthValue(){
+        onibaba.setHealthValue(100);
+        assertEquals(100, onibaba.getHealthValue());
+    }
+
+    @Test
+    public void canGetHealthValue(){
+        assertEquals(200, onibaba.getHealthValue());
+    }
+
+    @Test
     public void canTakeDamage(){
         onibaba.takeDamage(50);
         assertEquals(150, onibaba.getHealthValue());

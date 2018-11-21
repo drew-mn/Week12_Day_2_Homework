@@ -32,5 +32,5 @@ public abstract class Kaiju {
         this.attackValue = attackValue;
     }
 
-    public abstract String move();
+    public String move(){return "I can move";}
 }
